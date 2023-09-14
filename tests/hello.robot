@@ -6,5 +6,8 @@ Library          Dialogs
 *** Test Cases ***
 Hello world Test
     [Documentation]    My simple test
-    Execute Manual Step    This is first line and here goes the second:\nMy second have xxx xxx\nFuck this it seems it is not possible to split this in the code...
-    Execute Manual Step    Has been xxx xxx in previous step?
+    Tell User    This is first line and here goes the second:
+    ...          My second have xxx xxx
+    Tell User    This is first line and here goes the second:\n
+    ...          My second have xxx xxx\n
+    ...          It seems it is possible to split this in the code...

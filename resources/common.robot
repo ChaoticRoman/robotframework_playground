@@ -1,3 +1,9 @@
+
+*** Settings ***
+Library    Dialogs
+
 *** Keywords ***
-Say Hello
-    Log    Hello, world!
+Tell User
+    [Arguments]    @{args}
+    ${result} =    Catenate    @{args}
+    Execute Manual Step    ${result}
