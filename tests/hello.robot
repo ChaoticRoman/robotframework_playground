@@ -10,3 +10,4 @@ Hello world Test
     Tell User    This is first line and here goes the second:\n
     ...          My second have xxx xxx\n
     ...          It seems it is possible to split this in the code...
+    Pause Execution    Hello
